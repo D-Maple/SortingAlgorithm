@@ -14,27 +14,27 @@ public class MainMethod {
         Scanner scanner = new Scanner(System.in);
         String swich = scanner.nextLine();
         switch (swich){
-            case "1":
+            case "1"://直接插入排序
                 ZJCRsort zjcRsort = new ZJCRsort(a);
                 zjcRsort.sort();
                 break;
-            case "2":
+            case "2"://希尔排序
                 XEsort xEsort = new XEsort(a);
                 xEsort.sort();
                 break;
-            case "3":
+            case "3"://冒泡排序
                 MPsort mPsort = new MPsort(a);
                 mPsort.sort();
                 break;
-            case "4":
+            case "4"://快速排序
                 KSsort kSsort = new KSsort(a);
                 kSsort.sort();
                 break;
-            case "5":
+            case "5"://直接选择排序
                 ZJXZsort zjxZsort = new ZJXZsort(a);
                 zjxZsort.sort();
                 break;
-            case "6":
+            case "6"://堆排序
                 Dsort dsort = new Dsort(a);
                 dsort.sort();
                 break;
